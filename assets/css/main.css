@@ -627,9 +627,12 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #ffffff;
+		background: #ffffffd3;
 		color: #39454b;
 		padding: 2em;
+		-webkit-box-shadow: 16px 18px 113px 19px rgba(0,0,0,0.61);
+		-moz-box-shadow: 16px 18px 113px 19px rgba(0,0,0,0.61);
+		box-shadow: 16px 18px 113px 19px rgba(0,0,0,0.61);
 	}
 
 		.box > :last-child {
